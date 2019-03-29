@@ -1,7 +1,7 @@
 {
     "name": "ep-flex",
     "displayName": "Ep-Flex",
-    "description": "ep-meta-flex",
+    "description": "ep-meta-flex extension",
     "version": "0.0.5",
     "publisher": "epicor",
     "engines": {
