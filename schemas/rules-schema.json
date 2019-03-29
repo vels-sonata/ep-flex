@@ -84,13 +84,6 @@
                                     "type": "number"
                                 }
                             ]
-                        },
-                        "Columns": {
-                            "type": "array",
-                            "items": {
-                                "type": "string",
-                                "description": "array of column names"
-                            }
                         }
                     }
                 }
