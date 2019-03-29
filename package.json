@@ -2,7 +2,7 @@
     "name": "ep-flex",
     "displayName": "Ep-Flex",
     "description": "ep-meta-flex",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "epicor",
     "engines": {
         "vscode": "^1.32.0"
