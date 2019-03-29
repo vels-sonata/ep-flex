@@ -58,10 +58,6 @@
                         "operator": {
                             "type": "string",
                             "description": "arithmetic operation to perform"
-                        },
-                        "count": {
-                            "type": "number",
-                            "description": ""
                         }
                     }
                 }
