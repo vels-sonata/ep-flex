@@ -74,16 +74,6 @@
                         "EpBinding": {
                             "type": "string",
                             "description": "data binding name"
-                        },
-                        "Value": {
-                            "anyOf": [
-                                {
-                                    "type": "boolean"
-                                },
-                                {
-                                    "type": "number"
-                                }
-                            ]
                         }
                     }
                 }
