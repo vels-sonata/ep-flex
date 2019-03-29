@@ -1,0 +1,104 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+            "Namespace": {
+                "type": "string",
+                "description": "rule name"
+            },
+            "Name": {
+                "type": "string",
+                "description": "rule name"
+            },
+            "Description": {
+                "type": "string",
+                "description": "rule description"
+            },
+            "Function": {
+                "type": "string",
+                "description": "rule function"
+            },
+            "Condition": {
+                "type": "string",
+                "description": "rule condition"
+            },
+            "DataView": {
+                "type": "string",
+                "description": "rule condition"
+            },
+            "Location": {
+                "type": "string",
+                "description": "rule condition"
+            },
+            "DataViews": {
+                "type": "array",
+                "items": {
+                    "type": "string",
+                    "description": "array of data views"
+                }
+            },
+            "DependentFields": {
+                "type": "array",
+                "items": {
+                    "type": "string",
+                    "description": "array of dependent fields"
+                }
+            },
+            "RowCountCondition": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "dataview": {
+                            "type": "string",
+                            "description": "data view name"
+                        },
+                        "operator": {
+                            "type": "string",
+                            "description": "arithmetic operation to perform"
+                        },
+                        "count": {
+                            "type": "number",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "Actions": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "Action": {
+                            "type": "string",
+                            "description": "rule action to be performed"
+                        },
+                        "EpBinding": {
+                            "type": "string",
+                            "description": "data binding name"
+                        },
+                        "Value": {
+                            "anyOf": [
+                                {
+                                    "type": "boolean"
+                                },
+                                {
+                                    "type": "number"
+                                }
+                            ]
+                        },
+                        "Columns": {
+                            "type": "array",
+                            "items": {
+                                "type": "string",
+                                "description": "array of column names"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
