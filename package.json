@@ -1,0 +1,24 @@
+{
+    "name": "ep-flex",
+    "displayName": "Ep-Flex",
+    "description": "ep-meta-flex",
+    "version": "0.0.3",
+    "publisher": "epicor",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "eg2.tslint"
+    ],
+    "contributes": {
+        "jsonValidation": [
+            {
+                "fileMatch": "rules.json",
+                "url": "./schemas/rules-schema.json"
+            }
+        ]
+    }
+}
